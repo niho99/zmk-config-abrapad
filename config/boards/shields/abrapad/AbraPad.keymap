@@ -10,7 +10,7 @@
             bindings = <
             //┌───────────────┬───────────────┬───────────────┬───────────────┐
             //│ Numlock       │ Divide        │ Multiply      │ Minus         │
-                &kp KP_N7       &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp KP_MINUS                                                 
+                &mo 1           &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp KP_MINUS                                                 
             //├───────────────┼───────────────┼───────────────┼───────────────┤
             //│       7       │       8       │      9        │ Plus          │
                 &kp KP_N7       &kp KP_N8       &kp KP_N9                                               
