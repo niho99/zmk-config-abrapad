@@ -25,8 +25,11 @@
                             &kp KP_N0           &kp KP_COMMA    &kp KP_ENTER
             //└───────────────────────────────┴───────────────┴───────────────┘
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
-        bt_layer {
+
+        bt_layer { //layer 1
             bindings = <
             //┌───────────────┬───────────────┬───────────────┬───────────────┐
             //│ Numlock       │ Divide        │ Multiply      │ Minus         │
